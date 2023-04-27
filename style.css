@@ -338,8 +338,7 @@ form {
 }
 #wResults {
     text-align: justify;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 40px;
     font-size: 20px;
     line-height: 30px;
 }
