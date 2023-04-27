@@ -1,0 +1,595 @@
+body{
+    background-color: #fff;
+    margin: 0px;
+}
+/*** CONTENUTO DELLA NAVBAR ***/
+nav{
+    position: fixed;
+    top: 0px;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+}
+#menu{
+    display: none;
+}    
+.menu-div{
+    width: 40px;
+    height: 3px;
+    background-color: white;
+    margin: 7px;
+    border: 1px solid white;
+    border-radius: 40%;
+}
+#flex-container{
+    display: flex;
+    height: 70px;
+    justify-content: right;
+    align-items: center;
+}
+.flex-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 40px;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0);
+    color:white;
+    font-family: sans-serif;
+    font-weight:lighter;
+    font-size: 1.5em;
+}
+.links{
+    text-decoration: none;
+    color: white;
+    transition: .2s ease-in-out;
+}
+.links:hover{
+    color:rgb(54, 54, 54)
+}
+#link-button{
+    text-decoration: none;
+    color: white;
+}
+#flex-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 40px;
+    margin: 20px;
+    background-color: rgb(71, 71, 71);
+    color:rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-weight:lighter;
+    font-size: 20px;
+    box-sizing: border-box;
+    margin-left:36px;
+    border-radius: 500px;
+    transition: .5s ease-in-out;
+}
+#flex-button:hover{
+    background-color: rgba(255, 0, 0, 0.703);
+    font-size: 22px;
+}
+#barra{
+    background: #fff;
+    height: 25px;
+    margin: 16px;
+    width: 1px;
+}
+
+/*-----------------------------------------------------------------------------*/
+
+/*** CONTENUTO DELL'HEADER ***/
+
+header{
+    display: flex;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3) ), url("images/background-header.jpeg");
+    height: 800px;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#site{
+    display: flex;
+    height: 150px;
+    align-items: center;
+    font-size: 220px;
+    color:rgba(255, 255, 255, 0.9);
+    font-family: "Bebas Neue", sans-serif;
+}
+.parentesi{
+    color: rgba(255, 0, 0, 0.9);
+    font-size: 220px;
+}
+#un{
+    font-size: 220px;
+}
+#sottotitolo{
+    font-size: 50px;
+    color:rgba(255, 255, 255, 0.9);
+    font-family: "Bebas Neue", sans-serif;
+}
+/*-----------------------------------------------------------------------------*/
+
+/*** CONTENUTO DELLA SECTION ***/
+
+section{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 1.5vw;
+}
+#blocco-chitarre{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.guitars{
+    display: flex;
+    width: 23%;
+    height: 960px;
+    background-color:rgb(236, 236, 236);
+    flex-direction: column;
+    align-items: center;
+    transition: .5s ease-in-out;
+    color: black;
+}
+.guitars:hover{
+    background-color: rgb(158, 158, 158);
+    color: rgb(82, 82, 82);
+}
+.guitar-name{
+    font-size: 1.7vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    text-transform: uppercase;
+}
+.guitar-img{
+    height: 800px;
+    transition: .5s ease-in-out;
+}
+.guitar-img:hover{
+    height: 850px;
+}
+
+#other-block, #other-block2{
+    display: flex;
+    justify-content: left;
+    width: 100%;
+}
+.second-block, .second-block2{
+    display: flex;
+    margin-top: 40px;
+    padding: 20px;
+    width: 70%;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3) ), url("images/imgnews1.jpeg");
+    height: 700px;
+    background-size: cover;
+    justify-content: right;
+    flex-direction: column;
+    transition: .5s ease-in-out;
+}
+.second-block:hover, .second-block2:hover{
+    height: 700px;
+	width: 75%;
+	top: -518px;
+	left: -800px;
+	opacity: 1;
+} 
+.link-second-block{
+    color: white;
+    font-size: 130px;
+    font-family: "IBM Plex Sans", sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: .5s;
+}
+.link-second-block:hover{
+    color:#c7c7c7
+}
+#other-block2{
+    justify-content: right;
+}
+.second-block2{
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3) ), url("images/history.jpeg");
+}
+
+/* API Spotify */
+
+.spotify{
+    background-image: url("images/spotify.png");
+    background-position: center;
+    background-size: cover;
+}
+.api_spotify{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+.spotify_container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    margin: 20px;
+    background: rgb(236, 236, 236);
+    border-radius: 20px;
+    font-family: "IBM Plex Sans", sans-serif;
+}  
+.logo{
+    height: max-content;
+    width: 300px;
+}
+#sSearch{
+    flex-direction: row;
+    margin: 20px;
+}  
+.api_spotify p{
+    font-size: 40px;
+    margin: 0;
+} 
+#track{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid transparent;
+    font-size: 16px;
+    border-radius: 30px;
+    width: 300px;
+    height: 40px;
+} 
+#submit2, #submit{
+    background-image: url("images/cerca.png");
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(30, 215, 95);
+    margin-left: 5px;
+    border: 1px solid transparent;
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+    transition: .5s ease-in-out;
+}
+#submit2:hover, #submit:hover{
+    opacity: 0.7;
+} 
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+} 
+.box_spotify {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 5px;
+    background: linear-gradient(to right top, rgb(236, 236, 236), rgba(165, 165, 165, 0.568));
+    border-radius: 30px;
+    width: 300px;  
+    transition: .5s ease-in-out;
+}  
+.box_spotify img{
+    width: 90%;
+    margin: 15px;
+    border-radius: 20px;
+}  
+.box_spotify a{
+    margin: 10px;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+.box_spotify:hover{
+    background-color: rgb(158, 158, 158);
+    color: rgb(82, 82, 82);
+}
+
+/* API Wikipedia */
+
+#api_wikipedia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    margin: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    background: rgb(236, 236, 236);
+    border-radius: 20px;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+#wikipedia-logo{
+    height: 300px;
+    margin-top: 30px;
+}
+#wikiSearchQuery{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid transparent;
+    font-size: 16px;
+    border-radius: 30px;
+    width: 300px;
+    height: 40px;
+}
+#wSearch span{
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+#wSearch div{
+    margin-top: 30px;
+}
+
+#submit{
+    background-color: rgb(255, 255, 255);
+}
+#wResults {
+    text-align: justify;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 20px;
+    line-height: 30px;
+}
+/*-----------------------------------------------------------------------------*/
+
+/*** CONTENUTO DEL FOOTER ***/
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    height: 650px;
+    background-color: rgb(0, 0, 0);
+}
+#blocco-parole-f{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 95%;
+}
+.parole-f{
+    color: rgb(255, 255, 255);
+    font-size: 1vw;
+    font-family: "Open Sans", sans-serif;
+}
+.barra-f{
+    width: 95%;
+    background-color: #fff;
+    height: 1px;
+    margin: 30px;
+}
+#blocco-social{
+    display: flex;
+    width: 95%;
+    align-items: center;
+    justify-content: space-between;
+}
+#nome-sito-piccolo{
+    font-size: 2.5vw;
+    color:rgb(255, 255, 255);
+    font-family: "Bebas Neue", sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#loghi{
+    margin-right: 20px;
+}
+.social{
+    height: 40px;
+    margin-left: 10px;
+    transition: .5s ease-in-out;
+}
+.social:hover{
+    opacity: 0.5;
+    height: 42px;
+}
+#blocco-informazioni{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    font-family: "Open Sans", sans-serif;  
+}
+.colonne{
+    display: flex;
+    width: calc(20%-50px);
+    flex-direction: column;
+    color: #fff;
+    font-weight: 100;
+}
+.colonne-titolo{
+    font-size: 1.2vw;
+}
+.colonne-descrizione{
+    line-height: 20px;
+    font-size: 1vw;
+    font-family: "Open Sans", sans-serif;
+    color:#fff;
+}
+#guitarrist{
+    height: 400px;
+}
+#email{
+    font-size: 1vw;
+    text-decoration: none;
+    color: white;
+    transition: .5s ease-in-out;
+}
+#email:hover{
+    opacity: 0.5;
+    font-size: 1.1vw;
+}
+.link-footer{
+    font-size: 1vw;
+    text-decoration: none;
+    color: white;
+    transition: .5s ease-in-out;
+}
+.link-footer:hover{
+    opacity: 0.5;
+}
+/*-----------------------------------------------------------------------------*/
+@media screen and (max-width: 1400px){
+    .guitars{
+        height: 600px;
+        margin-bottom: 30px;
+    }
+    .guitar-img{
+        height: 500px;
+    }
+    .guitar-img:hover{
+        height: 530px;
+    }
+}
+@media screen and (max-width: 1024px){
+    #site{
+        font-size: 150px;
+    }
+    .parentesi{
+        font-size: 150px;
+    }
+    #un{
+        font-size: 150px;
+    }
+    .guitars{
+        width: 45%;
+        margin-bottom: 30px;
+    }
+    .second-block, .second-block2{
+        height: 450px;
+    }
+    .link-second-block{
+        
+        font-size: 90px;
+    }
+    #guitarrist{
+        display: none;
+    }
+    .colonne-titolo{
+        font-size: 2vw;
+    }
+    .colonne-descrizione{
+        line-height: 20px;
+        font-size: 2vw;
+        font-family: "Open Sans", sans-serif;
+        color:#fff;
+    }
+    .link-footer{
+        font-size: 2vw;
+        text-decoration: none;
+        color: white;
+        transition: .5s ease-in-out;
+    }
+    footer{
+        height: 550px;
+    }
+    .parole-f{
+        font-size: 2vw;
+    }
+    #email{
+        font-size: 2vw;
+    }
+    form{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 440px){
+    #flex-container{
+        display: none;
+    }
+    nav{
+        height: 50px;
+    }
+    #menu{
+        display: block;
+        margin-top: 10px;
+    }
+    header{
+        height: 200px;
+    }
+    #site{
+        margin-top: 100px;
+        margin-bottom: 0px;
+        font-size: 70px;
+        height: 50px;
+    }
+    .parentesi{
+        font-size: 70px;
+    }
+    #un{
+        font-size: 70px;
+    }
+    #sottotitolo{
+        font-size: 20px;
+    }
+    .guitars{
+        width: 100%;
+        height: 600px;
+        margin-bottom: 30px;
+    }
+    .guitar-name{
+        font-size: 6vw;
+    }
+    .guitar-img{
+        height: 500px;
+    }
+    .guitar-img:hover{
+        height: 530px;
+    }
+    .second-block, .second-block2{
+        height: 200px;
+        width: 100%;
+    }
+    .link-second-block{
+        font-size: 30px;
+    }
+    .logo{
+        width: 250px;
+    }
+    #track{
+        width: 250px;
+        margin-bottom: 10px;
+    }
+    footer{
+        height: 200px;
+    }
+    #blocco-informazioni{
+        display: none;
+    }
+    .box_spotify{
+        width: 250px;
+    }
+    #nome-sito-piccolo{
+        font-size: 4vw;
+    }
+    .parole-f{
+        font-size: 2.5vw;
+    }
+    .social{
+        height: 20px;
+    }
+    #wSearch span{
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 15px;
+    }
+    #wikiSearchQuery{
+        width: 250px;
+    }
+}
