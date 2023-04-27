@@ -1,9 +1,9 @@
 # mhw3
 Repository dedicata al terzo mini homework di Web Programming
 # Title
-Che tipo di chitarrista sei?
+(un)Real Music
 # Description
-Il progetto è un sito che funziona secondo le specifiche formite nella consegna dell'homework
+Il progetto è una versione di prova di quello che sarà il progetto finale
 # Readability
 | Syntax | Description |
 | ------------- | ------------ |
@@ -23,4 +23,4 @@ Il progetto è un sito che funziona secondo le specifiche formite nella consegna
 | blocco-social | Blocco per l'inserimento delle icone dei social |
 | blocco-informazioni | Blocco dove sono inserite la mail, varie informazioni e l'immagine |
 # Changelog
-17-04-23: è stato effettuato il caricamento di tutti i file richiesti
+28-04-23: è stato effettuato il caricamento di tutti i file richiesti
