@@ -535,6 +535,12 @@ footer{
     .guitar-name{
         font-size: 6vw;
     }
+    .guitar-img{
+        height: 500px;
+    }
+    .guitar-img:hover{
+        height: 530px;
+    }
     .second-block, .second-block2{
         height: 200px;
         width: 100%;
