@@ -13,12 +13,12 @@ Il progetto è un sito che funziona secondo le specifiche formite nella consegna
 | flex-button | Bottone grigio |
 | site | Titolo della pagina |
 | sottotitolo | Sottotitolo della pagina |
-| album-view | Parte dedicata alla visualizzazione degli album |
-| form | Blocco utile per l'API di last.fm |
 | blocco-chitarre | Blocco della pagina dedicato alle 4 chitarre |
 | other-block | Prima immagine riguardo le news |
 | other-block2 | Seconda immagine riguardo la nostra storia |
 | api_spotify | Parte dedicata alla visualizzazione di Spotify |
+| api_wikipedia | Blocco dedicato a Wikipedia |
+| form | Blocco utile per l'API di Wikipedia |
 | blocco-parole-f | Blocco del Footer in cui sono inserite informazioni sullo sviluppo |
 | blocco-social | Blocco per l'inserimento delle icone dei social |
 | blocco-informazioni | Blocco dove sono inserite la mail, varie informazioni e l'immagine |
